@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import img from "../assets/images/Untitled-1.png";
+import Uploading from "./Uploading";
 
 const Main = () => {
   const [dropped, setDropped] = useState(false);
@@ -62,6 +63,7 @@ const Main = () => {
           </label>
         </div>
       )}
+      {dropped && <Uploading />}
     </main>
   );
 };

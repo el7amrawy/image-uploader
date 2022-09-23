@@ -35,7 +35,8 @@ main {
   justify-content: center;
   align-items: center;
 }
-main .upload {
+main .upload,
+.uploading {
   box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);
   border-radius: 12px;
   padding: 36px 32px;
@@ -96,4 +97,47 @@ main .upload label {
 }
 main .upload label input[type="file"] {
   display: none;
+}
+
+/*  ========== uploading ========== */
+.uploading {
+  width: 400px;
+  height: 145px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.uploading h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+.uploading .loading-bar {
+  background: #f2f2f2;
+  border-radius: 8px;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+}
+.uploading .loading-bar .loading-child {
+  background: #2f80ed;
+  border-radius: 8px;
+  height: 6px;
+  width: 20%;
+  transform: translateX(-100%);
+  animation-name: loading;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes loading {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(500%);
+  }
 }
