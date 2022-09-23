@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import img from "../assets/images/Untitled-1.png";
+import Uploaded from "./Uploaded";
 import Uploading from "./Uploading";
 
 const Main = () => {
@@ -63,7 +64,8 @@ const Main = () => {
           </label>
         </div>
       )}
-      {dropped && <Uploading />}
+      {/* {dropped && <Uploading />} */}
+      {dropped && <Uploaded img={img} />}
     </main>
   );
 };
