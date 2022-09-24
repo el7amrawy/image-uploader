@@ -160,10 +160,15 @@ main .upload label input[type="file"] {
 .uploaded .img-cont {
   width: 338px;
   height: 224.4px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   margin-bottom: 25px;
   border-radius: 12px;
+  overflow: hidden;
+}
+#recieved-img {
+  width: 100%;
+  height: 100%;
 }
 .uploaded .img-link {
   width: 338px;
