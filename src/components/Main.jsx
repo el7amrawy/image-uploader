@@ -49,10 +49,7 @@ const Main = () => {
   function handleDrop(ev) {
     ev.preventDefault();
     const file = ev.dataTransfer.files[0];
-    if (
-      file &&
-      file.type == ("image/png" || "image/jpg" || "image/gif" || "image/jpeg")
-    ) {
+    if (file) {
       setDrag(false);
       setDropped(true);
       setFile(file);
@@ -61,10 +58,9 @@ const Main = () => {
 
   function changeHandler(ev) {
     const file = ev.target.files[0];
-    if (
-      file &&
-      file.type == ("image/png" || "image/jpg" || "image/gif" || "image/jpeg")
-    ) {
+    console.log(file.type);
+    if (file) {
+      console.log(1);
       setDrag(false);
       setDropped(true);
       setFile(file);
