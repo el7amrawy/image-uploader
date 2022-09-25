@@ -1,6 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Image Uploader <small style="font-size:16px;">(Front-End)</small></h1>
+<h1 align="center">
+  Image Uploader
+  <h4 align="center">(Front-End)</h4>
+</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
