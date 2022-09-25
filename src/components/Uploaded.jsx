@@ -7,6 +7,7 @@ const Uploaded = (props) => {
     ev.preventDefault();
 
     navigator.clipboard.writeText(url);
+    alert("Copied the text: \n" + url);
   }
 
   return (
@@ -17,7 +18,7 @@ const Uploaded = (props) => {
         <img src={url} id="recieved-img" />
       </div>
       <div className="img-link">
-        <p>{url}</p>
+        <p>{url.length > 52 ? url.slice(0, 52) + "..." : url}</p>
         <button className="btn" onClick={clickHandler}>
           Copy Link
         </button>
