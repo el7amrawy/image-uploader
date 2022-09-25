@@ -1,9 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">
-  Image Uploader
-</h1>
-  <div align="center">(Front-End)</div>
+<h1 align="center">Image Uploader (Front-End)</h1>
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
@@ -52,6 +49,6 @@
 
 ## Contact
 
+- [LinkedIn](https://www.linkedin.com/in/aly-hamdy/)
 - [Portfolio](https://el7amrawy.github.io/portfolio/)
 - [GitHub](https://github.com/el7amrawy/)
-- [LinkedIn](https://www.linkedin.com/in/aly-hamdy/)
