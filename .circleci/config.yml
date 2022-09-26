@@ -17,7 +17,7 @@ jobs:
           command: |
             npm install
       - run:
-          name: Install packages
+          name: run build
           # TODO: Install, build, deploy in both apps
           command: |
             npm run build
