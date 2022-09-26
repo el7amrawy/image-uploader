@@ -58,9 +58,9 @@ const Main = () => {
 
   function changeHandler(ev) {
     const file = ev.target.files[0];
-    console.log(file.type);
+    // console.log(file.type);
     if (file) {
-      console.log(1);
+      // console.log(1);
       setDrag(false);
       setDropped(true);
       setFile(file);
