@@ -1,9 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Image Uploader (Front-End)</h1>
+<h1 align="center">Image Uploader</h1>
 <div align="center">
   <h3>
-    <a href="https://el7amrawy.github.io/image-uploader/">
+    <a href="https://el7amrawy.github.io/image-uploader/" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -15,7 +15,7 @@
       Back-End
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx">
+    <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">
       Challenge
     </a>
   </h3>
