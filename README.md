@@ -2,11 +2,11 @@
 
 <h1 align="center">Image Uploader (Front-End)</h1>
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
   <h3>
+    <a href="https://el7amrawy.github.io/image-uploader/">
+      Demo
+    </a>
+    <span> | </span>
     <a href="https://github.com/el7amrawy/image-uploader" target="_blank">
       Front-End
     </a>
@@ -15,12 +15,11 @@
       Back-End
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">
+    <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx">
       Challenge
     </a>
   </h3>
 </div>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
